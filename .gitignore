@@ -1,0 +1,34 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Experiment artefacts
+outputs/
+logs/
+*.log
+*.ckpt
+*.pt
+*.pth
+
+# Data artefacts (keep raw scripts, ignore heavy handled files)
+data/*/raw/
+data/*/handled/*.pkl
+data/*/handled/*.npy
+data/*/handled/*.jsonline
